@@ -3,7 +3,7 @@ const botsdk = require('@line/bot-sdk')
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-    apiKey: "YOUR_API_KEY",
+    apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
@@ -12,8 +12,8 @@ const app = express();
 const port = process.env.PORT = 3000;
 
 const config = {
-    channelAccessToken: "YOUR_ACCESS_TOKEN",
-    channelSecret: "YOUR_SECRET_KEY"
+    channelAccessToken: "2xBA/01QDNTXCmFhUzyJ79KqPLayCjEziJ7SEAxDYRBWRs9kLRzULYc0pnrtwEUa8fyvQL0gcaYhvosccWfgb7v1g2Zx0HPbsjP9CTh7R3WCwbZ12f63LCyPNFbRKpVCfE0lD0tJURHUGrxhfPksrQdB04t89/1O/w1cDnyilFU=",
+    channelSecret: "5d1e2e5fa7fb05bf9d58cc534a02a44a"
 }
 const client = new botsdk.Client(config)
 
